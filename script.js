@@ -67,7 +67,7 @@ function getClassByRate(vote){
     }
 }
 
-const homebtn = document.getElementById('home')
+const homebtn = document.getElementById('logo')
 
 homebtn.addEventListener('click',()=> getMovies(API_URL))
 
